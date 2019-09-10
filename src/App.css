@@ -1,33 +1,225 @@
-.App {
-  text-align: center;
+
+.navbar {
+    border-radius: 0px;
+}
+.navbar {
+  
+    margin-bottom: 0px;
+    /* border: 0px solid transparent; */
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* .navbar-nav > li > a {
+    padding-top: 21px;
+    padding-bottom: 21px;
+} */
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 50px;
+}
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 42px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navig
+{
+    background: #a8c0ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
-.App-link {
-  color: #61dafb;
+    .navbar-default {
+        border: #a8c0ff;  /* fallback for old browsers */
+border: -webkit-linear-gradient(to left, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+border: linear-gradient(to left, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+   
+    .navbar-default .navbar-nav > li > a {
+        color:white;
+    }
+
+
+.Image
+{
+    margin-bottom: 15px;
+    margin-top: 85px;
+}
+.Well
+{
+    margin-bottom: 45px;
+    
+}
+.ResumeLeft
+{
+    margin-top: 100px;
+    margin-left: 20px;
+    /* margin-left: 0px; */
+
+}
+.ResumeLeft h1
+{
+    font-size: 40px;
+}
+.ResumeLeft p
+{
+    font-size: 16px;
+
+}
+.ResumeRight
+{
+    background-color: #2C3A47;
+    color:whitesmoke;
+    margin-top: 60px;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.EducationLeft
+{
+    padding-left: 40px;
+     margin-top: 20px; 
+}
+.EducationRight
+{
+    
+    padding-right: 35px;
+}
+.SpaceTop
+{
+    margin-top: 80px;
+}
+.ResumeRight h1
+{
+    margin-top: 50px;
+    font-size: 48px;
+   
+}
+.ProjectHeader
+{
+    background-color: #f5f8fa;
+    border: 1px solid silver;
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+.ProjectHeader h1
+{
+font-size: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ProjectLists p
+{
+    font-size: 19px;
+    width: 405px;
+    padding-top: 10px;
 }
+.ProjectLists h1
+{
+    font-size: 40px;
+}
+
+.Form
+{
+    margin-top: 45px;
+}
+.form-control {
+    
+    height: 63px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color:#f6f6f6;
+    
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.ContactBody
+{
+background-color: #f6f6f6;
+}
+label {
+   
+  
+    margin-bottom: 22px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.btn-lg, .btn-group-lg > .btn {
+   
+    border-radius: 23px;
+    margin-top: 25px;
+}
+.JosSide
+{
+    /* background-color: #3A6EE8; */
+    height: 700px;
+    color: white;
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.JosSide h1
+{
+    
+    padding-left: 40px;
+    
+}
+.padtop
+{
+    padding-top: 80px;
+    padding-left: 130px;
+}
+.padtop h1
+{
+   font-size: 80px;
+   padding-left: 0px;
+    
+}
+.padtop p
+{
+   width: 470px;   
+}
+.section2
+{
+    background-color:#f2f2f2;
+    padding-top: 5px;
+    color: #3A6EE8;
+    
+}
+.section2 h1
+{
+    font-size: 160px;
+    
+}
+.section2 p
+{
+   padding-top: 65px;
+   padding-bottom: 30px;
+   font-weight: bold;
+   font-size: 27px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   
+}
+#parasec2
+{
+    font-size: 18px;
+    margin-top: -76px;
+    color: black;
+    font-weight: normal;
+}
+
+.swarnil
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
