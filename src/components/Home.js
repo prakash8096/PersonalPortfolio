@@ -17,7 +17,7 @@ export class Home extends Component {
            <div className="well Well">
            <h1 className="text-center">FullStack Web Developer</h1>
            <hr  />
-           <p className="lead text-center"> HTML/CSS | Bootstrap | JavaScript | React | jQuery | Python |Django| MySQL</p>
+           <p className="lead text-center">  Bootstrap | JavaScript | React | jQuery | Python |Django| MySQL</p>
            
            <div className="row" >
            <div className="col-md-3 col-md-offset-2">
